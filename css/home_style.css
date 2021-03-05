@@ -73,18 +73,16 @@ a:visited {
 .midcontainer {
     background-color:black;
     border: solid #2800cc;
-    height: 4em;
-    width:55em;
-    margin: 4em auto 0 auto;
-    padding: 1em;
+    height: 30%;
+    width: 70%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .logo {
     height:3.5em;
     width:3.5em;
+    padding: 2em 1.5em 2em 1.5em;
 }
 
 /************************** GIFs *************************/
@@ -134,4 +132,13 @@ p:hover {
     height:15em; 
     margin-left:2em;
     align-self: flex-end;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 10% auto auto auto;
+
 }
