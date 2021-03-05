@@ -1,0 +1,71 @@
+/*
+Styling the body tag
+*/
+body {
+    background-color: black;
+    color: #0ce4f3;
+    font-size:15px;
+}
+
+/*
+Making a dotted horizontal rule
+*/
+hr {
+    border-style: none;
+    background-color: black;
+    border-top-style: dotted;
+    border-color: white;
+    border-width:8px;
+    width:25%;
+}
+h3 {
+    color: red;
+    font-size: 20px;
+}
+
+/*
+A CSS Class Selector example to align tables to center
+*/
+.centertable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.imgstyle {
+    border-radius: 100%;
+    height: 200px;
+    width:200px;
+}
+
+/*
+An ID Selector Example to style a specific ID (class selector is overrided)
+ID in HTML tags have to be uniquem but class can be repeated.
+*/
+
+#myname {
+    color: white;
+    font-size: 35px;
+}
+
+/*
+Class selectors override tag selectors, and ID selectors override both.
+One tag can have many classes but only one ID. 
+*/
+
+/* 
+CSS Psuedo class example - to change styling of a tag when the state of the tag changes
+*/
+p:hover {
+    color: white;
+
+}
+
+.grading{
+    font-size:80px;
+    color: red;
+
+}

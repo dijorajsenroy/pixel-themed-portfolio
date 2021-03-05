@@ -1,0 +1,137 @@
+body {
+    /*color specifies font color*/
+    color: red;
+    background-color: black;
+    margin: 0 auto 0 auto; /*body is centered horizontally*/
+    font-family: 'Press Start 2P', cursive;
+    height:100%;
+    width:100%;
+}
+
+/********************* Home Bar - Top Container **************************/
+
+.topcontainer {
+    background-color:black;
+    font-size: 1.2em;
+    margin: 3em auto 0 auto;
+    width: 60em;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+
+}
+.button {
+    margin: 0 3.2em
+}
+
+a{
+  color: red;
+  background-color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: #2800cc;
+}
+
+a:visited {
+  background-color: black;
+  color: none;
+}
+
+/********************** Body Image and Title - Middle Container ********************/
+
+.bgimg {
+    width:80%;
+    height:70%;
+    margin: 5em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content:center;
+}
+
+.title {
+    font-size: 1.8em;
+    text-align: center;
+    color: #ee0077;
+    margin: 4em auto 0 auto;
+}
+
+.subtitle {
+    text-align: center;
+    color: #2800cc;
+    font-size: 1em;
+    margin: 1.2em auto 0 auto;
+}
+
+
+/******* Tech icons display box ******/
+
+.midcontainer {
+    background-color:black;
+    border: solid #2800cc;
+    height: 4em;
+    width:55em;
+    margin: 4em auto 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height:3.5em;
+    width:3.5em;
+}
+
+/************************** GIFs *************************/
+
+.infocontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% auto 0 auto;
+    height: 40%;
+    width: 70%;
+    border: solid #2800cc;
+    padding: 2em 4em 4em 5em;
+}
+.ibtitle {
+    font-size: 1.2em;
+    color: #ee0077;
+    display: inline-block;
+    margin: 2em auto 0 auto;
+
+}
+.ibsubtitle {
+    color: #2800cc;
+    font-size: 1em;
+    margin: 2em auto 0 auto;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.sp {
+    color: red;
+}
+
+p:hover {
+    color: white;
+}
+
+#codegif {
+    width:20em;
+    height:15em;
+    margin-right:2em;
+    align-self: flex-start;
+}
+
+#rocketgif {
+    width:20em;
+    height:15em; 
+    margin-left:2em;
+    align-self: flex-end;
+}
