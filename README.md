@@ -12,4 +12,4 @@ Made using HTML and CSS from scratch. Image Sources are pinterest and google ima
 
 # View the website at:
 
-https://dijorajsenroy.github.io/portfolio-pixel-theme/ 
+https://dijorajsenroy.github.io/pixel-themed-portfolio/
