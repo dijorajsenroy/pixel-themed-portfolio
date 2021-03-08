@@ -99,7 +99,7 @@ a:visited {
     padding: 5%;
 }
 .ibtitle {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #ee0077;
     display: inline-block;
     margin: 10% auto 0 auto;
@@ -107,9 +107,9 @@ a:visited {
 
 .ibsubtitle {
     color: #2800cc;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 5% auto 0 auto;
-    letter-spacing: 1%;
+    letter-spacing: 2%;
     display: inline-block;
 }
 
